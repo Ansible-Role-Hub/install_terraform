@@ -1,0 +1,27 @@
+galaxy_info:
+  author: Carlin FONGANG
+  description: Installation de Terraform sur les plateform Debian
+  company: ./aCloud.Digital
+
+  # Catégories et tags aidant à la classification de votre rôle sur Ansible Galaxy
+  categories:
+    - system
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
+  galaxy_tags:
+    - terraform
+    - aws
+
+# Si votre rôle ne supporte pas certaines versions d'Ansible, précisez-le ici
+min_ansible_version: 2.9
+
+license:
+  - MIT
